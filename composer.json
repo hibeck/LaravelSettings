@@ -1,5 +1,5 @@
 {
-    "name":        "arcanedev/laravel-settings",
+    "name":        "hibeck/laravel-settings",
     "description": "This package allows you to persists configs/settings for Laravel projects.",
     "homepage":    "https://github.com/ARCANEDEV/LaravelSettings",
     "keywords":    [
@@ -11,17 +11,23 @@
             "email":    "arcanedev.maroc@gmail.com",
             "homepage": "https://github.com/arcanedev-maroc",
             "role":     "Developer"
+        },
+        {
+            "name": "Henrik Beck",
+            "email": "mail@ibeck.dk",
+            "homepage": "https://ibeck.dk",
+            "role": "Developer"
         }
     ],
     "type":    "library",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.0|^8.1",
         "ext-json": "*",
-        "arcanedev/support": "^9.0"
+        "arcanedev/support": "^9.0|^10.0"
     },
     "require-dev": {
-        "laravel/framework": "^9.0",
+        "laravel/framework": "^9.0|^10.0",
         "mockery/mockery": "^1.4.2",
         "orchestra/testbench-core": "^7.0",
         "phpunit/phpunit": "^9.5.10",
